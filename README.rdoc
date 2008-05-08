@@ -8,6 +8,7 @@
   project repo: git://github.com/CarlosGabaldon/hacking-log.git
  
 = SET UP
+  ~ $ sudo gem install merb activerecord merb_activerecord merb_helpers rspec merb_rspec
   ~ $ git clone git://github.com/CarlosGabaldon/hacking-log.git
   ~ $ cd ./hacking-log
   ~/hacking-log $ rake db:create:all
