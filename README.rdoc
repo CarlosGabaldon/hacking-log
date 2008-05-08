@@ -7,7 +7,7 @@
   project page: http://github.com/CarlosGabaldon/hacking-log/
   project repo: git://github.com/CarlosGabaldon/hacking-log.git
  
-  = SET UP
+= SET UP
   ~ $ git clone git://github.com/bmizerany/sinatra.git
   ~ $ cd ./hacking-log
   ~/hacking-log $ rake db:create:all
