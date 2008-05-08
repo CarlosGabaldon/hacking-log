@@ -1,0 +1,12 @@
+:development: &defaults
+  :adapter: mysql
+  :database: hacking_log_development
+  :username: root
+  :password: 
+  :host: localhost
+  :socket: /tmp/mysql.sock
+  :encoding: utf8
+
+:test:
+  <<: *defaults
+  :database: hacking_log_test

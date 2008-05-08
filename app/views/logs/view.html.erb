@@ -1,0 +1,28 @@
+<table cellspacing="0" cellpadding="0" border="0">
+  <tbody>
+    <tr>
+    	<td>
+    	  <pre class="textmate-source-numbers">
+    	   <% line_numbers = [] %>
+    	   <% line = 0 %>
+    	   <% @logs.each do |log|%> 
+    	     <% line_numbers << ">>" %>
+    	     <% log.entry.each{ line_numbers << (line += 1) }  %>
+    	   <% end %>
+    	   <% line_numbers.each do |l| %>
+    	    <%= l %>
+    	   <% end %>
+    	   </pre>
+    	</td>
+      <td>
+        <div class="logs">
+          <% @logs.each do |log| %>
+           <%= partial( "/shared/log", :log => log ) %> 
+          <% end %>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+

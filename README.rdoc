@@ -1,0 +1,19 @@
+= Hacking Log
+
+  Personal code/solution log
+
+  Copyright (c) 2008 Carlos Gabaldon <carlosgabaldon.com>, released under the MIT license
+ 
+  project page: http://github.com/CarlosGabaldon/hacking-log/
+  project repo: git://github.com/CarlosGabaldon/hacking-log.git
+ 
+  = SET UP
+  ~ $ git clone git://github.com/bmizerany/sinatra.git
+  ~ $ cd ./hacking-log
+  ~/hacking-log $ rake db:create:all
+  ~/hacking-log $ rake db:migrate
+  ~/hacking-log $ rake db:test:clone
+  ~/hacking-log $ rake specs
+  ~/hacking-log $ merb 
+
+

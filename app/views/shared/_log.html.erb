@@ -1,0 +1,6 @@
+<span id="<%= log_permalink(log) %>"> 
+  <a href="#<%= log_permalink(log) %>" class="log-date">:<%=time_of_day(log.created_at) %></a><br/>
+  <% log.entry.each do |e| %>
+    <span><%= e %></span><br/>
+  <%end%>
+</span>

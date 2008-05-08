@@ -1,0 +1,12 @@
+<label>past logs</label><br/>
+<ul>
+  <%past_logs.each do |log| %>
+    <% unless log.date == Date.today.strftime("%m-%d-%Y") %>
+    <li>
+      <span id="paste_date" class="typo_date">
+        <a href="/logs/view/<%=log.date %>"><%=log.date%></a>
+      </span>
+    </li>
+    <% end %>
+  <% end %>
+</ul>
