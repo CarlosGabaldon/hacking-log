@@ -16,5 +16,6 @@
   ~/hacking-log $ rake db:test:clone
   ~/hacking-log $ rake specs
   ~/hacking-log $ merb 
+  ~ $ open http://localhost:4000/logs/
 
 
